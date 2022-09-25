@@ -4,11 +4,11 @@ body{
     font-family: "Roboto", sans-serif;
 }
 #nav-bar{
-    width: 100%;
+    background-color: aliceblue;
     padding: 14px;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
   top: 0;
 }
 #logo{
@@ -25,7 +25,7 @@ body{
     width: 50%;
 }
 #signinmenu{
-   
+    padding-right: 4%;
     width: 30%;
 }
 #nav-menu ul, #signinmenu ul{
@@ -42,6 +42,36 @@ body{
 #nav-menu ul li a,  #signinmenu ul li a{
    color: black;
    text-decoration: none;
-   padding: 14px 16px;
+   padding: 14px;
+   font-weight: bold;
 
+}
+#nav-menu ul li  :hover , #signinmenu ul li :hover{
+    color: #4826C2;
+    border-bottom: 5px solid #FF6900;
+   
+}
+
+#nav-menu ul li a :hover , #signinmenu ul li a :hover{
+    border-bottom: none;
+   
+}
+
+#belownav-bar{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+#searchbar{
+    width: 40%;
+}
+
+#searchbar input{
+    padding: 13px 20px;
+    width: 130%;
+    border: 5px solid #FF6900;
+}
+#searchbtn {
+    padding-top: 10px;
 }
