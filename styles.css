@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+}
+#nav-bar{
+    width: 100%;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  top: 0;
+}
+#logo{
+    width: 20%;
+    text-align: center;
+  
+}
+#logo h1{
+    color: #FF6900;
+    margin: 0%;
+}
+#nav-menu{
+  
+    width: 50%;
+}
+#signinmenu{
+   
+    width: 30%;
+}
+#nav-menu ul, #signinmenu ul{
+    padding: 0%;
+    text-align: center;
+
+}
+#nav-menu ul li, #signinmenu ul li{
+    list-style-type: none;
+    display: inline;
+    
+
+}
+#nav-menu ul li a,  #signinmenu ul li a{
+   color: black;
+   text-decoration: none;
+   padding: 14px 16px;
+
+}
